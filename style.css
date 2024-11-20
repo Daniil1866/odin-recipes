@@ -1,16 +1,18 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0 0 25px;
 }
 
 h1 {
-  font-size: 38px;
-  background-color: rgba(111, 111, 111, 0.4);
+  font-size: 40px;
+  background-color: rgba(111, 0, 255, 0.1);
   text-align: center;
 }
 
 h2 {
   background-color: rgba(111, 0, 255, 0.1);
   font-size: 26px;
+  text-align: center;
 }
 
 .recipes-list {
@@ -27,5 +29,38 @@ a {
   color: black;
   text-decoration: none;
   font-weight: 700;
-  background-color: rgba(111, 0, 255, 0.2);
+  background-color: rgba(111, 0, 255, 0.1);
+}
+
+img {
+  border: 10px solid rgba(111, 0, 255, 0.1);
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.return-link{
+  text-align: center;
+}
+
+.return-link a, .recipes-list a{
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.recipes-list{
+  margin-top: 40px;
+  padding: 0;
+}
+
+.recipes-list li{
+  display: inline-block;
+  margin: 0 20px;
+  max-width: 300px;
+}
+
+.recipes-list a{
+  font-size: 22px;
 }
